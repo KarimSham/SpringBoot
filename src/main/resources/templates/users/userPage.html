@@ -66,7 +66,8 @@
                                     <td th:text="${user.login}"></td>
                                     <td>
                                         <th:block th:each="role: ${user.roles}"
-                                                  th:text="${role.userRole} + ' '"></th:block>
+                                                  th:text="${role.userRole} + ' '">
+                                        </th:block>
                                     </td>
                                 </tr>
                                 </tbody>

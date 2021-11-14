@@ -75,7 +75,8 @@
                                 <label for="roles"><b>Role</b></label>
                                 <select multiple class="form-control form-control-sm" id="roles" name="roles" size="2" required>
                                     <option th:each="role: ${roles}" th:value="${role.userRole}" th:selected="${user.roles.contains(role)}">
-                                        <th:block th:text="${role.userRole}"></th:block>
+                                        <th:block th:text="${role.userRole}">
+                                        </th:block>
                                     </option>
                                 </select>
                                 <br>
