@@ -35,7 +35,7 @@ public class DBInit {
         adminSet.add(roleUser);
         userSet.add(roleUser);
 
-        User newUser = new User("Username1", "Surname1", 23, "user1@mail.com", "User",
+        User newUser = new User("Ivan", "Ivanov", 23, "ivan@mail.com", "User",
                 "user", userSet);
         User admin = new User("Garry", "Potter", 30, "garry@gmail.com", "admin",
                 "admin", adminSet);
