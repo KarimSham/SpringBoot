@@ -1,4 +1,4 @@
-package ru.freeomsk.springbootbootstrap.config.handler;
+package ru.freeomsk.springbootbootstrap.security;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.authority.AuthorityUtils;

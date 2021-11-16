@@ -1,6 +1,5 @@
-package ru.freeomsk.springbootbootstrap.config;
+package ru.freeomsk.springbootbootstrap.security;
 
-import ru.freeomsk.springbootbootstrap.config.handler.LoginSuccessHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
