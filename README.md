@@ -1,4 +1,4 @@
-# JM preproject 3.1.2 Spring Boot (Bootstrap)
+# Spring Boot (Bootstrap)
 
 ## Задание:
 1. Изменить страницы вашего приложения в соответствии со скриншотами, используя Bootstrap.
